@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи и отправка на сервер</title>
+</head>
+<body>
+
+<h1>Решение алгоритмической задачи</h1>
+    <form id="algorithmForm">
+        <p><input type="hidden"  name="q" value="search"></p>
+        <ul>
+            <li></li>
+        <label for="numberA">Введите вещественное число A:</label>
+        <input type="number" id="numberA" step="any" required><br><br>
+
+        <label for="condition">Условие задачи:</label>
+        <textarea id="condition" required>A > 100 ? x = 0 : A < 61 ? x = A : x = A^4</textarea><br><br>
+
+        <button type="submit">Вычислить x</button>
+        <input type="Submit" name="submit"  value="Отправить">
+    </form>
+
+    <h2>Результат: <span id="result"></span></h2>
+
+    <script src="task_form_.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Основый шедевры Прадо</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="store.css">
+    <style type="text/css">
+        .navbar {
+        width: 100%;
+        height: 55px;
+        box-shadow: 0 4px rgba(0, 0, 0, .1);
+        }
+        .navbar .container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .navbar-menu li {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        }
+        .navbar-menu li {
+        display: inline-block;
+        }
+        .navbar-menu li a{
+        display: inline-block;
+        color: #800080;
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.6;
+        transition: all .07s ease-in-out;
+        }
+        .navbar-menu li a:hover {
+        opacity: 1;
+        }
+        .navbar-wrap {
+        display: flex;
+        flex-flow: row nowrap;
+        }
+        .museum-info {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-menu li a.active {
+        font-weight: bold;
+        }
+
+
+
+    </style>
+</head>
+<body id="prado">
+
+<header class="header">
+
+<div class="wrapper">
+      <div class="header-top py-1">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col"><a href="Extra.html">Прочее</a></div>
+                  <div class="col">
+                      <div class="dropdown">
+                          <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Музейные шедевры
+                          </button>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="Hermitage.html">Шедевры Эрмитажа</a></li>
+                              <li><a class="dropdown-item" href="Louvre.html">Шедевры Лувра</a></li>
+                              <li><a class="dropdown-item" href="Prado.html">Шедевры Прадо</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col"><a href="tab_goods.html">Таблица</a></div>
+                  <div class="col"><a href="forms.html" class="callback">Запись на урок</a></div>
+              </div>
+          </div>
+      </div>
+      <div class="header-middle bg-white">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col">
+                      <ul class="social-icons">
+                          <li><a href="https://t.me/framaaaaaa"><i class="fa-brands fa-telegram"></i></a></li>
+                          <li><a href="https://youtube.com/@rusimp_museum?si=rnSh41Se3GyXAN81"><i class="fa-brands fa-youtube"></i></a></li>
+                          <li><a href="https://www.instagram.com/im.ktd?igsh=OGVvdWRmM3Q3Y28y"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col">
+                      <a href="#" class="header-logo h1">ArtSight</a>
+                  </div>
+                  <div class="col">
+                      <div class="shopping">
+                          <a href="#"><i class="fa-solid fa-cart-shopping">Магазин</i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+</header>
+
+<nav class="navbar">
+        <div class="container">
+
+            <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="#part1">Описание музея Прадо</a></li>
+                <li><a href="#part2">Информация о музее</a></li>
+                <li><a href="#part3">Топ-3 картины</a></li>
+            </ul>
+            </div>
+        </div>
+</nav>
+
+
+
+ <p id="top"></p>
+
+<div class="museum-info">
+  <div class="museum-header">
+    <h1 id="part1">Музей Прадо</h1>
+    <p class="museum-location">Испания</p>
+  </div>
+  <div class="museum-description">
+    <p>Музей Прадо - самый крупный музей изобразительного искусства в Испании. Здесь представлено более 7 тысяч картин и несколько тысяч произведений изобразительного и декоративно-прикладного искусства. В коллекции музея выставлены шедевры таких мастеров, как Диего Веласкес, Иероним Босх, Рафаэль Санти и Франсиско Гойя.</p>
+  </div>
+</div>
+
+
+<div style="text-align: center;">
+    <img src="prado.jpeg" height="600" width="800" class="img-fluid">
+</div>
+
+
+
+<div class="prado-museum-info">
+  <h1 id="part2">Музей Прадо</h1>
+  <ul>
+    <li>
+      <h2>Основная информация:</h2>
+      <ul>
+        <li>Расположение: Мадрид, Испания</li>
+        <li>Год основания: 1819</li>
+        <li>Коллекция: более 8 000 произведений искусства</li>
+      </ul>
+    </li>
+    <li>
+      <h2>Шедевры музея Прадо:</h2>
+      <ul>
+        <li>Весенний праздник на улице Алькала - Франсиско Гойя</li>
+        <li>Пьяницы - Диего Веласкес</li>
+        <li>Сад земных наслаждений - Иероним Босх</li>
+      </ul>
+    </li>
+    <li>
+      <h2>Интересные факты:</h2>
+      <ul>
+        <li>Музей Прадо является одним из старейших художественных музеев мира</li>
+        <li>В коллекции музея представлено множество знаменитых художников, таких как Рафаэль, Тициан, Рубенс и др.</li>
+        <li>Здание музея построено в стиле неоклассицизма</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+<h3 id="part3">Топ-3 картины</h3>
+<ul>
+    <li>Сад земных наслаждений</li>
+    <li>Менины</li>
+    <li>Маха одетая</li>
+</ul>
+
+<figure>
+    <img src="сад.jpg" alt="Сад" height="600" width="1000" class="img-fluid">
+    <figcaption>Сад земных наслаждений</figcaption>
+</figure>
+
+<figure>
+    <img src="менины.jpg" alt="Менины" height="700" width="600" class="img-fluid">
+    <figcaption>Менины</figcaption>
+</figure>
+
+<figure>
+    <img src="маха.jpg" alt="Маха" height="350" width="700" class="img-fluid">
+    <figcaption>Маха одетая</figcaption>
+</figure>
+
+<button>
+    <a href="#top">Наверх</a>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

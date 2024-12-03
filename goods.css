@@ -1,0 +1,27 @@
+table {
+border-spacing: 10px;
+}
+td {
+padding: 15px 10px;
+text-align: center;
+transition: all 0.5s linear;
+}
+td:first-child {
+text-align: center;
+color: #FF69B4;
+font-weight: bold;
+}
+th {
+padding: 10px 20px;
+color: #20B2AA;
+}
+td:nth-child(even) {
+background: #FFEFD5
+}
+td:nth-child(odd) {
+background: #E6E6FA;
+}
+tr:hover td{
+background: #B0E0E6;
+font-weight: bold;
+}

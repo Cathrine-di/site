@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Основные шедевры Лувра</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="store.css">
+    <style type="text/css">
+        .navbar {
+        width: 100%;
+        height: 55px;
+        box-shadow: 0 4px rgba(0, 0, 0, .1);
+        }
+        .navbar .container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .navbar-menu li {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: inline-block;
+        }
+        .navbar-menu li a{
+        display: inline-block;
+        color: #800080;
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.6;
+        transition: all .07s ease-in-out;
+        }
+        .navbar-menu li a:hover {
+        opacity: 1;
+        }
+        .navbar-wrap {
+        display: flex;
+        flex-flow: row nowrap;
+        }
+        .museum-info {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .museum-info h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+        }
+        .museum-info p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+        }
+        .highlight {
+        font-weight: bold;
+        color: #8b008b;
+        }
+        .navbar-menu li a.active {
+        font-weight: bold;
+        }
+
+
+
+    </style>
+</head>
+<body id="louvre">
+
+<header class="header">
+
+<div class="wrapper">
+      <div class="header-top py-1">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col"><a href="Extra.html">Прочее</a></div>
+                  <div class="col">
+                      <div class="dropdown">
+                          <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Музейные шедевры
+                          </button>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="Hermitage.html">Шедевры Эрмитажа</a></li>
+                              <li><a class="dropdown-item" href="Louvre.html">Шедевры Лувра</a></li>
+                              <li><a class="dropdown-item" href="Prado.html">Шедевры Прадо</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col"><a href="tab_goods.html">Таблица</a></div>
+                  <div class="col"><a href="forms.html" class="callback">Запись на урок</a></div>
+              </div>
+          </div>
+      </div>
+      <div class="header-middle bg-white">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col">
+                      <ul class="social-icons">
+                          <li><a href="https://t.me/framaaaaaa"><i class="fa-brands fa-telegram"></i></a></li>
+                          <li><a href="https://youtube.com/@rusimp_museum?si=rnSh41Se3GyXAN81"><i class="fa-brands fa-youtube"></i></a></li>
+                          <li><a href="https://www.instagram.com/im.ktd?igsh=OGVvdWRmM3Q3Y28y"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col">
+                      <a href="index.html" class="header-logo h1">ArtSight</a>
+                  </div>
+                  <div class="col">
+                      <div class="shopping">
+                          <a href="store.html"><i class="fa-solid fa-cart-shopping">Магазин</i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+</header>
+<nav class="navbar">
+        <div class="container">
+
+            <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="#part1">Лувр</a></li>
+                <li><a href="#part2">История Лувра</a></li>
+                <li><a href="#part3">Топ-3 картины</a></li>
+            </ul>
+            </div>
+        </div>
+</nav>
+
+<p id="top"></p>
+
+<div class="museum-info">
+    <h2 id="part1">Лувр</h2>
+    <p>Лувр – один из самых крупных и старинных музеев Европы. Художественное собрание Лувра насчитывает более 300 тысяч бесценных произведений искусства разных эпох, и только 35 тысяч из них открыты для широкой публики. Именно здесь хранятся такие шедевры мирового искусства как <span class="highlight">Джоконда Да Винчи, древнегреческие скульптуры Венера Милосская и Ника Самофракийская</span>.</p>
+</div>
+
+<div style="text-align: center;">
+    <img src="лу.jpg" height="600" width="800" class="img-fluid">
+</div>
+
+<h2 id="part2">История Лувра</h2>
+<p align="justify">История Лувра ведет свое начало с XII столетия, когда по приказу короля Филиппа II Августа на берегу Сены была возведена оборонительная Луврская башня для защиты города. Луврская башня на одной стороне реки и Нэльская башня на противоположном берегу были соединены массивными цепями, преграждавшими путь неприятелю. Луврcкая башня простояла несколько столетий. В XVI веке на ее месте было решено построить королевский дворец.
+    Архитектура и внутреннее оформление Лувра создавали лучшими французскими и европейскими мастерами. При каждом новом монархе Лувр преображался, приобретая новые архитектурные черты. Идея о превращении Лувра в музей была предложена еще во времена Людовика XVI, однако в жизнь она воплотилась только во второй половине XVIII века после окончания Великой французской революции. Свой современный облик и статус главного музея Франции Лувр приобрел в XX столетии.
+    В 1971 году по распоряжению президента Франсуа Миттеране во дворце была произведена масштабная реставрация. Тогда же появилась самая спорная и критикуемая достопримечательность Лувра – стеклянная пирамида, служащая входом в музей
+</p>
+
+<h3 id="part3">Топ-3 картины</h3>
+<ul>
+    <li>Мона Лиза</li>
+    <li>Плот "Медузы"</li>
+    <li>Свобода, ведущая народ</li>
+</ul>
+
+<figure>
+    <img src="mona.png" alt="Мона Лиза" height="900" width="700" class="img-fluid">
+    <figcaption>Мона Лиза</figcaption>
+</figure>
+
+<figure>
+    <img src="плот.jpg" alt="Плот" height="600" width="800" class="img-fluid">
+    <figcaption>Плот "Медузы"</figcaption>
+</figure>
+
+<figure>
+    <img src="своб.jpg" alt="Свобода, ведущая нарож" height="700" width="800" class="img-fluid">
+    <figcaption>Свобода, ведущая народ</figcaption>
+</figure>
+
+<button>
+<a href="#top">Наверх</a>
+</button>
+
+<script src="nava.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Основные шедевры Эрмитажа</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="store.css">
+    <style type="text/css">
+        .navbar {
+        width: 100%;
+        height: 55px;
+        box-shadow: 0 4px rgba(0, 0, 0, .1);
+        }
+        .navbar .container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .navbar-menu li {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        }
+        .navbar-menu li {
+        display: inline-block;
+        }
+        .navbar-menu li a{
+        display: inline-block;
+        color: #800080;
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.6;
+        transition: all .07s ease-in-out;
+        }
+        .navbar-menu li a:hover {
+        opacity: 1;
+        }
+        .navbar-wrap {
+        display: flex;
+        flex-flow: row nowrap;
+        }
+        .image-link {
+        display: block;
+        width: 80px;
+        height: auto;
+        text-align: left;
+        }
+        .image {
+        max-width: 100%;
+        height: auto;
+        }
+        .image-link:hover {
+        cursor: pointer;
+        }
+        .image-link[target="_blank"]::after {
+        content: " \21D2";
+        }
+        .image {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+        }
+        .img {
+        margin-top: 10px;
+        }
+        .navbar-menu li a.active {
+        font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body id="hermitage">
+
+<header class="header">
+
+<div class="wrapper">
+      <div class="header-top py-1">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col"><a href="Extra.html">Прочее</a></div>
+                  <div class="col">
+                      <div class="dropdown">
+                          <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Музейные шедевры
+                          </button>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="Hermitage.html">Шедевры Эрмитажа</a></li>
+                              <li><a class="dropdown-item" href="Louvre.html">Шедевры Лувра</a></li>
+                              <li><a class="dropdown-item" href="Prado.html">Шедевры Прадо</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col"><a href="tab_goods.html">Таблица</a></div>
+                  <div class="col"><a href="forms.html" class="callback">Запись на урок</a></div>
+              </div>
+          </div>
+      </div>
+      <div class="header-middle bg-white">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col">
+                      <ul class="social-icons">
+                          <li><a href="https://t.me/framaaaaaa"><i class="fa-brands fa-telegram"></i></a></li>
+                          <li><a href="https://youtube.com/@rusimp_museum?si=rnSh41Se3GyXAN81"><i class="fa-brands fa-youtube"></i></a></li>
+                          <li><a href="https://www.instagram.com/im.ktd?igsh=OGVvdWRmM3Q3Y28y"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col">
+                      <a href="index.html" class="header-logo h1">ArtSight</a>
+                  </div>
+                  <div class="col">
+                      <div class="shopping">
+                          <a href="store.html"><i class="fa-solid fa-cart-shopping">Магазин</i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+</header>
+
+
+<nav class="navbar">
+        <div class="container">
+
+            <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="#part1">Описание</a></li>
+                <li><a href="#part2">Краткая история</a></li>
+                <li><a href="#part3">Топ-3 картины</a></li>
+            </ul>
+            </div>
+        </div>
+</nav>
+
+<p id="top"></p>
+
+<h2 id="part1" style="text-align:center">Описание</h2>
+<p style="border:3px #800080 double; width: 500px; margin: 0 auto; text-align:center;">Эрмитаж — российский государственный художественный и культурно-исторический музей в Санкт-Петербурге, одно из крупнейших в мире учреждений подобного рода.
+Главный музейный комплекс расположен в историческом центре Санкт-Петербурга и включает в себя шесть связанных между собой зданий: Зимний дворец, Запасной дом Зимнего дворца, Малый Эрмитаж, Большой (Старый) Эрмитаж, Новый Эрмитаж и Эрмитажный театр. В них открыты для посещения 365 залов.
+Современная коллекция музея насчитывает около трёх миллионов произведений искусства и памятников мировой культуры, собранных начиная с каменного века и до нашего столетия. В составе коллекции — живопись, графика, скульптура и предметы прикладного искусства, археологические находки и нумизматический материал</p>
+
+ <div class="img">
+     <img src="эр.jpg" height="600" width="700" style="display: block; margin: 0 auto;" class="img-fluid">
+ </div>
+
+<h2 id="part2">Краткая история</h2>
+<p align="justify">Императорский музей Эрмитаж был первоначально частной коллекцией Екатерины II, которая нуждалась в месте для хранения 317 ценных картин, полученных из Берлина. Это собрание живописи стоимостью 183 тыс. талеров (1 талер = 26 г серебра) было передано Екатерине Иоганном Эрнестом Гоцковским в счет его долга. Коллекция включала работы известных художников, таких как Рембрандт и Рубенс. К ней позднее добавились приобретенные собрания дипломата, польского министра, барона Пьера Кроза и британского премьер-министра. Музей расширялся, в том числе за счет античных скульптур, и к 1796 году насчитывал уже почти 4 тыс. картин, что потребовало строительства Большого Эрмитажа. Таким образом, Екатерине II удалось создать уникальное собрание живописи в стране, не имевшей ранее значительных художественных галерей.</p>
+
+<h3 id="part3">Топ-3 картины</h3>
+<ol>
+    <li>Черный квадрат</li>
+    <li>Танец</li>
+    <li>Мадонна с Младенцем</li>
+
+</ol>
+
+<figure>
+    <img src="квадрат.jpg" alt="Черный квадрат" height="600" width="700" title="Казимир Малевича, Черный квадрат, 1915" class="img-fluid">
+    <figcaption>Черный квадрат</figcaption>
+</figure>
+
+<figure>
+    <a href="танец.jpg" target="_blank" class="image-link">
+    <img src="танец.jpg" alt="Image" title="Анри Матисс, Танец, 1910" class="img-fluid">
+    </a>
+    <figcaption>Танец</figcaption>
+</figure>
+
+<figure>
+    <img src="мадонна.jpg" alt="Мадонна с Младенцем" height="700" width="600" title="Леонардо да Винчи, Мадонна Литта, 1481–1495" class="img-fluid">
+    <figcaption>Мадонна с Младенцем</figcaption>
+</figure>
+<button>
+<a href="#top">Наверх</a>
+</button>
+
+<script src="nava.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
